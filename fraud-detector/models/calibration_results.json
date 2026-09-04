@@ -1,0 +1,128 @@
+{
+  "raw_brier_score": 0.00381694408133626,
+  "calibrated_brier_score": 0.000583482959994714,
+  "raw_reliability_bins": [
+    {
+      "bin": "[0, 0.0001)",
+      "n": 960288,
+      "mean_predicted_prob": 7.817408004484605e-06,
+      "observed_fraud_rate": 0.0
+    },
+    {
+      "bin": "[0.0001, 0.001)",
+      "n": 157274,
+      "mean_predicted_prob": 0.00037599605275318027,
+      "observed_fraud_rate": 6.358330048196142e-06
+    },
+    {
+      "bin": "[0.001, 0.01)",
+      "n": 83185,
+      "mean_predicted_prob": 0.003126169554889202,
+      "observed_fraud_rate": 6.010699044298852e-05
+    },
+    {
+      "bin": "[0.01, 0.05)",
+      "n": 20786,
+      "mean_predicted_prob": 0.023125259205698967,
+      "observed_fraud_rate": 0.000769748869431348
+    },
+    {
+      "bin": "[0.05, 0.1)",
+      "n": 5678,
+      "mean_predicted_prob": 0.07160191237926483,
+      "observed_fraud_rate": 0.0015850651637900669
+    },
+    {
+      "bin": "[0.1, 0.3)",
+      "n": 7689,
+      "mean_predicted_prob": 0.17901219427585602,
+      "observed_fraud_rate": 0.004942125113798933
+    },
+    {
+      "bin": "[0.3, 0.5)",
+      "n": 3244,
+      "mean_predicted_prob": 0.39450111985206604,
+      "observed_fraud_rate": 0.010172626387176326
+    },
+    {
+      "bin": "[0.5, 0.7)",
+      "n": 2408,
+      "mean_predicted_prob": 0.5975635647773743,
+      "observed_fraud_rate": 0.03156146179401993
+    },
+    {
+      "bin": "[0.7, 0.9)",
+      "n": 2857,
+      "mean_predicted_prob": 0.8048110604286194,
+      "observed_fraud_rate": 0.06615330766538327
+    },
+    {
+      "bin": "[0.9, 1)",
+      "n": 5327,
+      "mean_predicted_prob": 0.9810497164726257,
+      "observed_fraud_rate": 0.728928102121269
+    }
+  ],
+  "calibrated_reliability_bins": [
+    {
+      "bin": "[0, 0.0001)",
+      "n": 1230065,
+      "mean_predicted_prob": 1.5878641682708188e-06,
+      "observed_fraud_rate": 3.414453707730892e-05
+    },
+    {
+      "bin": "[0.0001, 0.001)",
+      "n": 4229,
+      "mean_predicted_prob": 0.00046993016995674363,
+      "observed_fraud_rate": 0.005675100496571293
+    },
+    {
+      "bin": "[0.001, 0.01)",
+      "n": 5362,
+      "mean_predicted_prob": 0.0025465212354315978,
+      "observed_fraud_rate": 0.014919806042521447
+    },
+    {
+      "bin": "[0.01, 0.05)",
+      "n": 4981,
+      "mean_predicted_prob": 0.019105818280993194,
+      "observed_fraud_rate": 0.0799036338084722
+    },
+    {
+      "bin": "[0.05, 0.1)",
+      "n": 376,
+      "mean_predicted_prob": 0.08134407634311851,
+      "observed_fraud_rate": 0.300531914893617
+    },
+    {
+      "bin": "[0.1, 0.3)",
+      "n": 128,
+      "mean_predicted_prob": 0.19217722455505282,
+      "observed_fraud_rate": 0.46875
+    },
+    {
+      "bin": "[0.3, 0.5)",
+      "n": 101,
+      "mean_predicted_prob": 0.34656832448326713,
+      "observed_fraud_rate": 0.6732673267326733
+    },
+    {
+      "bin": "[0.5, 0.7)",
+      "n": 112,
+      "mean_predicted_prob": 0.6541306562721729,
+      "observed_fraud_rate": 0.8214285714285714
+    },
+    {
+      "bin": "[0.7, 0.9)",
+      "n": 79,
+      "mean_predicted_prob": 0.8049195476725132,
+      "observed_fraud_rate": 0.9746835443037974
+    },
+    {
+      "bin": "[0.9, 1)",
+      "n": 3303,
+      "mean_predicted_prob": 0.9999845455604505,
+      "observed_fraud_rate": 0.9978807145019679
+    }
+  ]
+}

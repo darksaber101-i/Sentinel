@@ -1,0 +1,59 @@
+{
+  "note": "Ablated model excluding newbalanceOrig/errorBalanceOrig, which are a PaySim simulator artifact (fraud rows always fully drain the origin account to 0). This is the more realistic estimate.",
+  "test_roc_auc": 0.9994251856967927,
+  "test_pr_auc": 0.9449394556710315,
+  "at_threshold_0.5": {
+    "threshold": 0.5,
+    "tp": 4148,
+    "fp": 6444,
+    "fn": 102,
+    "tn": 1238042,
+    "precision": 0.39161631419939574,
+    "recall": 0.976,
+    "f1": 0.5589543188249562,
+    "fraud_amount_missed": 6988623.5,
+    "review_cost": 322200.0,
+    "total_cost": 7310823.5
+  },
+  "at_f1_optimal_threshold": {
+    "threshold": 0.9891687631607056,
+    "tp": 3562,
+    "fp": 77,
+    "fn": 688,
+    "tn": 1244409,
+    "precision": 0.9788403407529541,
+    "recall": 0.8381176470588235,
+    "f1": 0.9030295347952846,
+    "fraud_amount_missed": 110511888.0,
+    "review_cost": 3850.0,
+    "total_cost": 110515738.0
+  },
+  "at_cost_optimal_threshold": {
+    "threshold": 0.09,
+    "tp": 4222,
+    "fp": 18127,
+    "fn": 28,
+    "tn": 1226359,
+    "precision": 0.18891225558190522,
+    "recall": 0.9934117647058823,
+    "f1": 0.31745554344148275,
+    "fraud_amount_missed": 1123419.625,
+    "review_cost": 906350.0,
+    "total_cost": 2029769.625
+  },
+  "baseline_cost_flag_nothing_inr": 6682882048.0,
+  "net_savings_at_cost_optimal_inr": 6680852278.375,
+  "net_savings_pct": 0.9996962733128579,
+  "feature_importances": {
+    "amount": 0.07016129791736603,
+    "oldbalanceOrg": 0.0833733081817627,
+    "oldbalanceDest": 0.03800636902451515,
+    "newbalanceDest": 0.030974270775914192,
+    "errorBalanceDest": 0.012425013817846775,
+    "hourOfDay": 0.03714164346456528,
+    "type_CASH_OUT": 0.2263634353876114,
+    "type_DEBIT": 0.027249330654740334,
+    "type_PAYMENT": 0.3570944368839264,
+    "type_TRANSFER": 0.11721086502075195
+  }
+}

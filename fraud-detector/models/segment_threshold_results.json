@@ -1,0 +1,51 @@
+{
+  "global_cost_total": 2029769.625,
+  "per_segment_cost_total": 2022269.625,
+  "improvement_inr": 7500.0,
+  "improvement_pct": 0.0036950006087513505,
+  "segments": {
+    "TRANSFER": {
+      "n": 108439,
+      "fraud_count": 2125,
+      "best_threshold": 0.85,
+      "global_threshold_cost": 7600.0,
+      "global_threshold_tp": 2125,
+      "global_threshold_fp": 152,
+      "segment_threshold_cost": 100.0,
+      "segment_threshold_tp": 2125,
+      "segment_threshold_fp": 2
+    },
+    "CASH_OUT": {
+      "n": 423501,
+      "fraud_count": 2125,
+      "best_threshold": 0.09,
+      "global_threshold_cost": 2021619.625,
+      "global_threshold_tp": 2097,
+      "global_threshold_fp": 17964,
+      "segment_threshold_cost": 2021619.625,
+      "segment_threshold_tp": 2097,
+      "segment_threshold_fp": 17964
+    },
+    "CASH_IN": {
+      "n": 276810,
+      "fraud_count": 0,
+      "best_threshold": null,
+      "global_cost": 300.0,
+      "segment_cost": 300.0
+    },
+    "PAYMENT": {
+      "n": 431087,
+      "fraud_count": 0,
+      "best_threshold": null,
+      "global_cost": 0.0,
+      "segment_cost": 0.0
+    },
+    "DEBIT": {
+      "n": 8899,
+      "fraud_count": 0,
+      "best_threshold": null,
+      "global_cost": 250.0,
+      "segment_cost": 250.0
+    }
+  }
+}
